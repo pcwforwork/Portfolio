@@ -315,5 +315,9 @@ opacity: 1;
     #M_photo {
         margin: 0 auto;
     }
+    .skill_icon {
+    	height: 100%;
+    	width: 100%;
+    }
 
 }
