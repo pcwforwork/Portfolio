@@ -111,8 +111,8 @@ a:hover {
 }
 #M_photo {
 	margin: 80px 50px 0 50px;
-	width: 300px;
-	height: 300px;
+	width: 270px;
+	height: 270px;
 }
 /* 技能 */
 #skills {
@@ -256,31 +256,18 @@ opacity: 1;
 }
 
 @media only screen and (max-width: 1680px) {
-    body {
+	body {
         height: 3750px;
-    }
-
-    #M_photo {
-        height: 100%;
-        width: 100%;
     }
 }
 @media only screen and (max-width: 1366px) {
 	body {
         height: 3800px;
     }
-        #M_photo {
-        height: 80%;
-        width: 80%;
-    }
 }
 @media only screen and (max-width: 1280px) {
 	body {
         height: 3900px;
-    }
-        #M_photo {
-        height: 80%;
-        width: 80%;
     }
 }
 
@@ -288,19 +275,11 @@ opacity: 1;
 	body {
         height: 4200px;
     }
-        #M_photo {
-        height: 80%;
-        width: 80%;
-    }
 }
 
 @media only screen and (max-width: 980px) {
 	body {
         height: 5500px;
-    }
-        #M_photo {
-        height: 70%;
-        width: 70%;
     }
 }
 
@@ -311,10 +290,6 @@ opacity: 1;
     nav {
     	height: 100%;
     }
-        #M_photo {
-        height: 70%;
-        width: 70%;
-    }
 }
 @media only screen and (max-width: 680px) {
     body {
@@ -322,10 +297,6 @@ opacity: 1;
     }
     nav {
     	height: 100%;
-    }
-        #M_photo {
-        height: 70%;
-        width: 70%;
     }
 }
 @media only screen and (max-width: 480px) {
@@ -336,7 +307,7 @@ opacity: 1;
     	height: 100%;
     }
     #M_photo {
-	height: 60%;
-	width: 60%;
+	height: 100%;
+	width: 100%;
 }
 }
