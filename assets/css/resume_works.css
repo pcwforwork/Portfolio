@@ -1,0 +1,191 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+
+* {
+    font-family: 'cwTeXYen', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #000;
+}
+
+
+/*
+body .bg_blur {
+    -moz-filter: blur(8px);
+    -webkit-filter: blur(8px);
+    -ms-filter: blur(8px);
+    filter: blur(8px);
+}
+*/
+
+
+.round {
+    border-radius: 50%;
+}
+.align {
+    position: relative;
+    display: inline-block;
+}
+
+.images {
+    width: 100%;
+}
+.images_modal {
+    width: 100%;
+    z-index: 999;
+}
+.row {
+    margin: 0;
+    padding: 0;
+}
+
+div .works{
+    position: relative;
+    display: block;
+    width: 33.3%;
+    cursor: pointer;
+    background-color: #000;
+}
+.bg_transparent{
+    position: relative;
+    margin-top: -54.8%;
+    padding: 32.25% 0 16.25% 0;
+    color: transparent;
+}
+.bg_transparent:hover{
+    color: #ddd;
+    background-image: linear-gradient(rgba(255,255,255,0),rgba(0,0,0,.8));
+    background-image: -webkit-linear-gradient(rgba(255,255,255,0),rgba(0,0,0,.7));
+}
+
+h5 {
+    text-align: center;
+}
+
+
+/* header */
+#header {
+    bottom: -16px;
+    height: 80px;
+    background: url('../../img/paper_B.jpg') repeat center;
+    background-size: cover;
+    padding: 15px 30px;
+    color: #ddd;
+    letter-spacing: 3px;
+    position: fixed;
+    user-select: none;
+    width: 100%;
+    z-index: 99;
+
+}
+#header a {
+    color: #999;
+    display: inline-block;
+}
+#header a:hover {
+    text-decoration: none;
+    color: #ccc;
+}
+#header h4 {
+    font-size: 16px;
+}
+#header h4 strong{
+    font-size: 24px;
+}
+
+@media only screen and (max-width: 1680px) {
+    div .works {
+        width: 33.3%;
+    }
+
+    .bg_transparent {
+        margin-top: -54.8%;
+        padding: 32.25% 0 16.25% 0;
+
+    }
+
+    #header {
+        bottom: -16px;
+        height: 80px;
+        padding: 15px 30px;
+        letter-spacing: 3px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    div .works {
+        width: 33.3%;
+    }
+
+    .bg_transparent {
+        margin-top: -57.8%;
+        padding: 32.25% 0 16.25% 0;
+
+    }
+
+    #header {
+        bottom: 0;
+        height: 80px;
+        padding: 15px 30px;
+        letter-spacing: 3px;
+    }
+}
+
+@media only screen and (max-width: 980px) {
+    div .works {
+        width: 50%;
+    }
+
+    .bg_transparent {
+        margin-top: -56.8%;
+
+    }
+
+    #header {
+        bottom: 0;
+        height: 70px;
+        padding: 10px 20px;
+        letter-spacing: 3px;
+        font-size: 10px;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+    div .works {
+        width: 100%;
+    }
+
+    .bg_transparent {
+        margin-top: -52.8%;
+
+    }
+
+    #header {
+        bottom: 0;
+        height: 70px;
+        padding: 10px 20px;
+        letter-spacing: 3px;
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    div .works {
+        width: 100%;
+    }
+
+    .bg_transparent {
+        margin-top: -56%;
+
+    }
+
+    #header {
+        bottom: 0;
+        height: 70px;
+        padding: 10px 20px;
+        letter-spacing: 3px;
+        font-size: 10px;
+    }
+}
