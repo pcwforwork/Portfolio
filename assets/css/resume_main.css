@@ -306,4 +306,8 @@ opacity: 1;
     nav {
     	height: 100%;
     }
+    #M_photo {
+	height: 80%;
+	width: 80%;
+}
 }
