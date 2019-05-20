@@ -110,6 +110,7 @@ a:hover {
 	width: 100px;
 }
 #M_photo {
+	margin: 80px 50px 0 50px;
 	width: 270px;
 	height: 270px;
 }
@@ -311,6 +312,9 @@ opacity: 1;
     }
     nav {
     	height: 100%;
+    }
+    #M_photo {
+        margin: 0 auto;
     }
 
 }
